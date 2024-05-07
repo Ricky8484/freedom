@@ -5,7 +5,7 @@ on: push
 
 jobs: 
    BuildPushImage:
-       runs-on: ubuntu
+       runs-on: ubuntu-latest
        steps:
            - name: Checkout or clone
              uses: actions/checkout@v4
